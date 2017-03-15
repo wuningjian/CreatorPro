@@ -20,9 +20,25 @@ cc.Class({
     onLoad: function () {
 
     },
+    
+    getRoleDis: function () {
+        var rolePosition = this.game.role.getPosition();
+        var dist = cc.pDistance(this.node.position, rolePosition);
+        return dist;
+    },
+    
+    onPick: function () {
+        this.node.destroy();
+        this.game.gainScore();
+        this.game.spawnNewStar();
+    },
 
     // called every frame, uncomment this function to activate update callback
-    // update: function (dt) {
+    update: function (dt) {
+        if(this.getRoleDis() < this.pickRadius){
+            this.onPick();
+            return;
+        }
 
-    // },
+    },
 });
