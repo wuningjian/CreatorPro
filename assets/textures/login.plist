@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>resource/login/button_login_001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{365,213},{131,37}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{131,37}</string>
+			</dict>
+			<key>resource/login/button_login_002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{365,173},{131,38}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{131,38}</string>
+			</dict>
+			<key>resource/login/button_login_003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{136,95},{242,71}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{242,71}</string>
+			</dict>
+			<key>resource/login/button_login_004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{403,63},{58,65}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,65}</string>
+			</dict>
+			<key>resource/login/ggIcon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{403,1},{64,60}}</string>
+				<key>offset</key>
+				<string>{0,-2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{64,64}</string>
+			</dict>
+			<key>resource/login/flag_login_001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{469,1},{41,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{41,56}</string>
+			</dict>
+			<key>resource/login/flag_login_002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{469,59},{41,56}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{41,56}</string>
+			</dict>
+			<key>resource/login/pic_login_001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{463,117},{27,25}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{27,25}</string>
+			</dict>
+			<key>resource/login/pic_login_002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,95},{133,133}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{133,133}</string>
+			</dict>
+			<key>resource/login/pic_login_003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{136,168},{227,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{227,47}</string>
+			</dict>
+			<key>resource/login/pic_login_004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{400,92}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{400,92}</string>
+			</dict>
+			<key>resource/login/pic_login_005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,252},{482,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{482,31}</string>
+			</dict>
+			<key>resource/login/world_login_001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{380,130},{64,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{64,27}</string>
+			</dict>
+			<key>resource/login/world_login_002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{446,144},{64,27}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{64,27}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>login.png</string>
+			<key>realTextureFileName</key>
+			<string>login.png</string>
+			<key>size</key>
+			<string>{511,284}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>511</integer>
+			<key>height</key>
+			<integer>284</integer>
+		</dict>
+	</dict>
+</plist>

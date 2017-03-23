@@ -35,6 +35,17 @@ cc.Class({
         scoreDisplay: {
             default: null,
             type: cc.Label
+        },
+        
+        // 
+        serverBtn: {
+            default: null,
+            type: cc.Prefab
+        },
+
+        serverList: {
+            default: null,
+            type: cc.ScrollView
         }
     },
 
@@ -42,10 +53,40 @@ cc.Class({
     onLoad: function () {
         // 获取地平面的 y 轴坐标
         this.groundY = this.ground.y + this.ground.height/2;
+        
+        //计时的
+        this.timer = 0;
+        this.duration = 0;
+        
         // 生成一个新的星星
         this.spawnNewStar();
         // 初始化计分
         this.score = 0;
+
+        this.spawnServerBtn();  
+    },
+
+    spawnServerBtn: function () {
+        var serverListNum = [1,2,3,4,5,6,7,8,9,10];
+
+        var content = this.serverList.content;
+
+        // var newServerBtn = cc.instantiate(this.serverBtn);
+        // this.node.addChild(newServerBtn);
+        // newServerBtn.setPosition(cc.p(100,100));
+        // newServerBtn.getComponent("serverBtnJS").init(66);
+
+        for(var i = 0; i < serverListNum.length; i++){
+            var newServerBtn = cc.instantiate(this.serverBtn);
+            newServerBtn.getComponent("serverBtnJS").init(serverListNum[i]);
+            content.addChild(newServerBtn);
+        }
+        
+        // ss.string = "first";
+
+        // var temp = newServerBtn.getComponent(cc.Button);
+        // temp.clickEvents[0].customEventData = 66;
+
     },
     
     spawnNewStar: function() {
@@ -56,6 +97,8 @@ cc.Class({
         // 为星星设置一个随机位置
         newStar.setPosition(this.getNewStarPosition());
         newStar.getComponent("star").game = this;
+        this.duration = this.minStarDuration + cc.random0To1() * (this.maxStarDuration - this.minStarDuration);
+        this.timer = 0;
     },
 
     getNewStarPosition: function () {
@@ -73,13 +116,18 @@ cc.Class({
         this.score += 1;
         // 更新 scoreDisplay Label 的文字
         this.scoreDisplay.string = 'Score: ' + this.score.toString();
-        if(this.score > 10){
-            cc.director.loadScene("game");
-        }
     },
-
+    
+    gameOver: function () {
+        this.role.stopAllActions(); //停止 player 节点的跳跃动作
+        cc.director.loadScene('game');
+    },
+ 
     // called every frame, uncomment this function to activate update callback
-    // update: function (dt) {
-
-    // },
+    update: function (dt) {
+        if(this.timer > this.duration){
+            //this.gameOver();
+        }
+        this.timer += dt;
+    },
 });

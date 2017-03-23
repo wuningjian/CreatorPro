@@ -12,38 +12,32 @@ cc.Class({
         //    readonly: false,    // optional, default is false
         // },
         // ...
-        // 星星和主角之间的距离小于这个数值时，就会完成收集
-        pickRadius: 0
+        serverName: {
+            default: null,
+            type: cc.Label
+        },
+        serverTag: {
+            default: null,
+            type: cc.Node
+        }
     },
 
     // use this for initialization
     onLoad: function () {
 
     },
-    
-    getRoleDis: function () {
-        var rolePosition = this.game.role.getPosition();
-        var dist = cc.pDistance(this.node.position, rolePosition);
-        return dist;
+
+    init: function (info) {
+        this.serverName.string = 'server' + info;
+        this.getComponent(cc.Button).clickEvents[0].customEventData = info;
     },
-    
-    onPick: function () {
-        this.node.destroy();
-        this.game.gainScore();
-        this.game.spawnNewStar();
+
+    clickBtnCb: function (target, inputParam) {
+        cc.log("clickBtnCb: " + inputParam);
     },
 
     // called every frame, uncomment this function to activate update callback
-    update: function (dt) {
-        
-        if(this.getRoleDis() < this.pickRadius){
-            this.onPick();
-            return;
-        }
-        
-        var opacityRatio = 1 - this.game.timer/this.game.duration ;
-        var minOpacity = 50;
-        this.node.opacity = minOpacity + Math.floor(opacityRatio * (255 - minOpacity));
+    // update: function (dt) {
 
-    },
+    // },
 });
