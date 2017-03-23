@@ -46,6 +46,11 @@ cc.Class({
         serverList: {
             default: null,
             type: cc.ScrollView
+        },
+
+        clearBtn: {
+            default: null,
+            type:cc.Button
         }
     },
 
@@ -67,9 +72,9 @@ cc.Class({
     },
 
     spawnServerBtn: function () {
-        var serverListNum = [1,2,3,4,5,6,7,8,9,10];
+        var serverListNum = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
 
-        var content = this.serverList.content;
+        this.content = this.serverList.content;
 
         // var newServerBtn = cc.instantiate(this.serverBtn);
         // this.node.addChild(newServerBtn);
@@ -79,13 +84,20 @@ cc.Class({
         for(var i = 0; i < serverListNum.length; i++){
             var newServerBtn = cc.instantiate(this.serverBtn);
             newServerBtn.getComponent("serverBtnJS").init(serverListNum[i]);
-            content.addChild(newServerBtn);
+            this.content.addChild(newServerBtn);
         }
         
         // ss.string = "first";
 
         // var temp = newServerBtn.getComponent(cc.Button);
         // temp.clickEvents[0].customEventData = 66;
+
+    },
+
+    clearBtnCallback: function (){
+        if(this.content){
+            this.content.removeAllChildren();
+        }
 
     },
     
