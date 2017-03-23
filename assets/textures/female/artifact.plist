@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>icon/artifact/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,567},{206,164}}</string>
+				<key>offset</key>
+				<string>{8,7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,198}</string>
+			</dict>
+			<key>icon/artifact/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{209,546},{203,180}}</string>
+				<key>offset</key>
+				<string>{-1,7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,198}</string>
+			</dict>
+			<key>icon/artifact/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{218,366},{221,178}}</string>
+				<key>offset</key>
+				<string>{0,8}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,198}</string>
+			</dict>
+			<key>icon/artifact/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,382},{206,183}}</string>
+				<key>offset</key>
+				<string>{8,5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,198}</string>
+			</dict>
+			<key>icon/artifact/5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{243,1},{221,196}}</string>
+				<key>offset</key>
+				<string>{-5,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,198}</string>
+			</dict>
+			<key>icon/artifact/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{240,182}}</string>
+				<key>offset</key>
+				<string>{0,8}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,198}</string>
+			</dict>
+			<key>icon/artifact/7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,185},{215,195}}</string>
+				<key>offset</key>
+				<string>{-3,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,198}</string>
+			</dict>
+			<key>icon/artifact/8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{218,199},{240,165}}</string>
+				<key>offset</key>
+				<string>{0,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{240,198}</string>
+			</dict>
+			<key>icon/artifact/icon_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{460,199},{46,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,46}</string>
+			</dict>
+			<key>icon/artifact/icon_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{460,247},{46,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,46}</string>
+			</dict>
+			<key>icon/artifact/icon_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{460,295},{46,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,46}</string>
+			</dict>
+			<key>icon/artifact/icon_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{466,49},{46,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{46,46}</string>
+			</dict>
+			<key>icon/artifact/icon_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{466,145},{46,40}}</string>
+				<key>offset</key>
+				<string>{0,-2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{46,46}</string>
+			</dict>
+			<key>icon/artifact/icon_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{460,343},{46,46}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{46,46}</string>
+			</dict>
+			<key>icon/artifact/icon_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{466,1},{46,45}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{46,46}</string>
+			</dict>
+			<key>icon/artifact/icon_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{466,97},{46,43}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{46,46}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>artifact.png</string>
+			<key>realTextureFileName</key>
+			<string>artifact.png</string>
+			<key>size</key>
+			<string>{512,732}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>732</integer>
+		</dict>
+	</dict>
+</plist>
